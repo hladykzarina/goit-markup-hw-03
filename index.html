@@ -11,9 +11,13 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="node_modules/modern-normalize/modern-normalize.css"
+    />
     <link rel="stylesheet" href="css/styles.css" />
   </head>
-  <body>
+  <body class="container">
     <header class="header">
       <nav class="navigation">
         <a href="./index.html" class="main-logo link"
@@ -89,7 +93,7 @@
       <section>
         <h2 class="images-header">What are we doing</h2>
         <ul class="list">
-          <li>
+          <li class="pictures-main">
             <img
               src="./images/img1.jpg"
               alt="picture of computer"
@@ -97,7 +101,7 @@
               height="300"
             />
           </li>
-          <li>
+          <li class="pictures-main">
             <img
               src="./images/img2.jpg"
               alt="picture of mobile messenger"
@@ -105,7 +109,7 @@
               height="300"
             />
           </li>
-          <li>
+          <li class="pictures-main">
             <img
               src="./images/img3.jpg"
               alt="picture of computer and mobile game"
@@ -125,6 +129,7 @@
               alt="picture of Mark Guerrero"
               width="264"
               height="260"
+              class="team-members-pictures"
             />
             <h3 class="team-members-name">Mark Guerrero</h3>
             <p class="team-members-text">Product Designer</p>
@@ -135,6 +140,7 @@
               alt="picture of Tom Ford"
               width="264"
               height="260"
+              class="team-members-pictures"
             />
             <h3 class="team-members-name">Tom Ford</h3>
             <p class="team-members-text">Frontend Developer</p>
@@ -145,6 +151,7 @@
               alt="picture of Camila Garcia"
               width="264"
               height="260"
+              class="team-members-pictures"
             />
             <h3 class="team-members-name">Camila Garcia</h3>
             <p class="team-members-text">Marketing</p>
@@ -155,6 +162,7 @@
               alt="picture of Daniel Wilson"
               width="264"
               height="260"
+              class="team-members-pictures"
             />
             <h3 class="team-members-name">Daniel Wilson</h3>
             <p class="team-members-text">UI Designer</p>
@@ -167,7 +175,7 @@
       <a href="./index.html" class="main-logo link"
         >Web<span class="logo-studio">Studio</span></a
       >
-      <p>
+      <p class="footer-text">
         Increase the flow of customers and sales for your business with digital
         marketing & growth solutions.
       </p>
