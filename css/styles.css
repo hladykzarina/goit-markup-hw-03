@@ -351,6 +351,7 @@ body {
 }
 
 .main-logo-footer {
+  display: inline-block;
   flex-direction: row;
   align-items: center;
   padding: 0px;
@@ -363,11 +364,7 @@ body {
   color: #4d5ae5;
   text-decoration: none;
   position: absolute;
-  width: 115px;
-  left: 156px;
-  top: 24px;
   margin-right: 76px;
-  display: inline-block;
   margin-bottom: 16px;
 }
 
@@ -423,7 +420,6 @@ body {
   padding: 12px 24px;
   border: 1px solid #e7e9fc;
   border-radius: 4px;
-  border: 1px solid transparent;
 }
 
 .button-portfolio:hover {
@@ -432,6 +428,7 @@ body {
   background-color: #404bbf;
 }
 
+.button-portfolio:hover,
 .button-portfolio:focus {
   border: 1px solid transparent;
   color: #ffffff;
