@@ -368,6 +368,10 @@ body {
   margin-bottom: 16px;
 }
 
+.logo-studio {
+  display: inline-block;
+}
+
 .footer-text {
   position: absolute;
   max-width: 264px;
@@ -422,17 +426,9 @@ body {
   border-radius: 4px;
 }
 
-.button-portfolio:hover {
-  border: 1px solid transparent;
-  color: #ffffff;
-  background-color: #404bbf;
-}
-
 .button-portfolio:hover,
 .button-portfolio:focus {
   border: 1px solid transparent;
-  color: #ffffff;
-  background-color: #404bbf;
 }
 
 .images-portfolio {
@@ -448,7 +444,6 @@ body {
 
 .item-img {
   background: url(4074365.jpg);
-  mix-blend-mode: normal;
   width: calc((100% - 48px) / 3);
 }
 
