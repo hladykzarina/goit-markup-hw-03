@@ -342,7 +342,6 @@ body {
 }
 
 .footer {
-  display: inline-block;
   background-color: #2e2f42;
   position: absolute;
   width: 1440px;
@@ -352,7 +351,7 @@ body {
   padding: 100px 0;
 }
 
-.main-logo-footer {
+.logo-footer {
   display: inline-block;
   flex-direction: row;
   align-items: center;
@@ -428,7 +427,12 @@ body {
   border-radius: 4px;
 }
 
-.button-portfolio:hover,
+.button-portfolio:hover {
+  color: #ffffff;
+  background-color: #404bbf;
+  border: 1px solid transparent;
+}
+
 .button-portfolio:focus {
   color: #ffffff;
   background-color: #404bbf;
@@ -449,7 +453,7 @@ body {
 .item-img {
   background: url(4074365.jpg);
   mix-blend-mode: normal;
-  width: calc((100% - 48px) / 3);
+  width: calc((100%-48px) / 3);
 }
 
 .img-name {
