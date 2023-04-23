@@ -341,6 +341,7 @@ body {
 }
 
 .footer {
+  display: inline-block;
   background-color: #2e2f42;
   position: absolute;
   width: 1440px;
@@ -428,11 +429,9 @@ body {
 
 .button-portfolio:hover,
 .button-portfolio:focus {
-  border: 1px solid transparent;
-  border: solid;
-  border: transparent;
   color: #ffffff;
   background-color: #404bbf;
+  border: 1px solid transparent;
 }
 
 .images-portfolio {
