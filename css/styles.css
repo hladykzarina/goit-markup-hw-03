@@ -429,6 +429,10 @@ body {
 .button-portfolio:hover,
 .button-portfolio:focus {
   border: 1px solid transparent;
+  border: solid;
+  border: transparent;
+  color: #ffffff;
+  background-color: #404bbf;
 }
 
 .images-portfolio {
@@ -444,6 +448,7 @@ body {
 
 .item-img {
   background: url(4074365.jpg);
+  mix-blend-mode: normal;
   width: calc((100% - 48px) / 3);
 }
 
