@@ -180,6 +180,7 @@ body {
 .button-main:hover,
 .button-main:focus {
   background-color: #404bbf;
+  border: 1px solid transparent;
 }
 
 .features-section {
@@ -466,6 +467,7 @@ body {
   top: 0px;
   background: url(4074365.jpg);
   mix-blend-mode: normal;
+  width: calc((100% - 48px) / 3);
 }
 
 .img-title {
