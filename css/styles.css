@@ -33,6 +33,7 @@ ul {
   width: 1158px;
   margin: 0 auto;
   padding: 0 15px;
+  text-align: center;
 }
 
 .header {
@@ -121,10 +122,6 @@ ul {
 .contacts:hover,
 .contacts:focus {
   color: #404bbf;
-}
-
-.div-hero {
-  text-align: center;
 }
 
 .hero {
