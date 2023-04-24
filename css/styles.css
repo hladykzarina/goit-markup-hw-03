@@ -433,8 +433,6 @@ body {
 }
 
 .item-img {
-  background: url(4074365.jpg);
-  mix-blend-mode: normal;
   width: calc((100%-48px) / 3);
 }
 
