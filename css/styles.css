@@ -38,6 +38,7 @@ ul {
 
 .header {
   border-bottom: 1px solid #e7e9fc;
+  margin: 0 auto;
 }
 
 .navigation {
@@ -396,8 +397,6 @@ ul {
 }
 
 .item-img {
-  background: url(4074365.jpg);
-  mix-blend-mode: normal;
   width: calc((100%-48px) / 3);
 }
 
