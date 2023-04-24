@@ -32,7 +32,6 @@ body {
 }
 
 .header {
-  position: absolute;
   width: 1440px;
   left: 0px;
   top: 0px;
@@ -61,7 +60,6 @@ body {
   text-transform: uppercase;
   color: #4d5ae5;
   text-decoration: none;
-  position: absolute;
   width: 115px;
   left: 156px;
   top: 24px;
@@ -87,7 +85,6 @@ body {
   letter-spacing: 0.02em;
   color: #2e2f42;
   text-decoration: none;
-  position: absolute;
   width: 261px;
   left: 347px;
   top: 24px;
@@ -113,7 +110,6 @@ body {
   letter-spacing: 0.02em;
   color: #434455;
   text-decoration: none;
-  position: absolute;
   width: 153px;
   left: 940px;
   top: 24px;
@@ -129,7 +125,6 @@ body {
 
 .hero {
   background-color: #2e2f42;
-  position: absolute;
   width: 1440px;
   left: 0px;
   top: 72px;
@@ -142,7 +137,6 @@ body {
   text-align: center;
   letter-spacing: 0.02em;
   color: #ffffff;
-  position: absolute;
   max-width: 496px;
   left: 472px;
   top: 260px;
@@ -167,7 +161,6 @@ body {
   align-items: flex-start;
   padding: 16px 32px;
   gap: 10px;
-  position: absolute;
   min-width: 169px;
   height: 56px;
   border: none;
@@ -235,7 +228,6 @@ body {
   text-transform: capitalize;
   list-style: none;
   color: #2e2f42;
-  position: absolute;
   width: 323px;
   height: 38.45px;
   left: 559px;
@@ -272,7 +264,6 @@ body {
   text-transform: capitalize;
   color: #2e2f42;
   list-style: none;
-  position: absolute;
   width: 162px;
   height: 40px;
   left: 639px;
@@ -343,7 +334,6 @@ body {
 
 .footer {
   background-color: #2e2f42;
-  position: absolute;
   width: 1440px;
   height: 312px;
   left: 0px;
@@ -364,7 +354,6 @@ body {
   text-transform: uppercase;
   color: #4d5ae5;
   text-decoration: none;
-  position: absolute;
   margin-right: 76px;
   margin-bottom: 16px;
 }
@@ -374,7 +363,6 @@ body {
 }
 
 .footer-text {
-  position: absolute;
   max-width: 264px;
   height: 72px;
   left: 156px;
@@ -417,7 +405,6 @@ body {
   align-items: flex-start;
   padding: 0px;
   gap: 24px;
-  position: absolute;
   width: 586px;
   height: 48px;
   left: 427px;
@@ -427,13 +414,8 @@ body {
   border-radius: 4px;
 }
 
+.button-portfolio:focus,
 .button-portfolio:hover {
-  color: #ffffff;
-  background-color: #404bbf;
-  border: 1px solid transparent;
-}
-
-.button-portfolio:focus {
   color: #ffffff;
   background-color: #404bbf;
   border: 1px solid transparent;
@@ -464,7 +446,6 @@ body {
 }
 
 .pictures-portfolio {
-  position: absolute;
   width: 360px;
   height: 300px;
   left: 0px;
