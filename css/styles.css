@@ -17,8 +17,14 @@ body {
   background: #ffffff;
   font-family: 'Roboto', sans-serif;
   color: #434455;
-  position: relative;
-  width: 1440px;
+}
+
+h1,
+h2,
+h3,
+p,
+ul {
+  margin: 0;
 }
 
 ul {
@@ -85,19 +91,19 @@ ul {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #2e2f42;
   text-decoration: none;
+  color: #2e2f42;
   display: flex;
   gap: 40px;
 }
 
-.menu-nav:hover,
-.menu-nav:focus {
-  color: #404bbf;
-}
-
 .menu-nav-item {
   padding: 24px 0;
+}
+
+.menu-nav-item:hover,
+.menu-nav-item:focus {
+  color: #404bbf;
 }
 
 .contacts-address {
@@ -115,6 +121,7 @@ ul {
   text-decoration: none;
   display: flex;
   gap: 40px;
+  padding: 24px 0;
 }
 
 .contacts:hover,
@@ -163,7 +170,6 @@ ul {
 .button-main:hover,
 .button-main:focus {
   background-color: #404bbf;
-  border: 1px solid transparent;
 }
 
 .features-section {
@@ -181,7 +187,6 @@ ul {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
-  width: calc((100% - 72px) / 4);
   flex: none;
   order: 0;
   flex-grow: 0;
@@ -261,7 +266,6 @@ ul {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 32px;
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
   border-radius: 0px 0px 4px 4px;
