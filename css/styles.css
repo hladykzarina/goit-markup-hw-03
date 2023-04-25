@@ -109,6 +109,20 @@ ul {
 
 .contacts-address {
   margin-left: auto;
+  display: flex;
+}
+
+.contacts-list {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+  text-decoration: none;
+  display: flex;
+  gap: 40px;
 }
 
 .contacts {
@@ -122,6 +136,7 @@ ul {
   text-decoration: none;
   display: flex;
   gap: 40px;
+  padding: 24px 0;
 }
 
 .contacts:hover,
