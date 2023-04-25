@@ -99,6 +99,7 @@ ul {
 
 .menu-nav-item {
   padding: 24px 0;
+  color: #2e2f42;
 }
 
 .menu-nav-item:hover,
@@ -121,7 +122,6 @@ ul {
   text-decoration: none;
   display: flex;
   gap: 40px;
-  padding: 24px 0;
 }
 
 .contacts:hover,
